@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@300&family=Gudea&display=swap');
+
+*{
+    box-sizing: border-box;
+    border-color: #9BA4B5;
+}
+body{
+    /*Abel, Dosis, Gudea*/
+    font-family: 'Gudea' , sans-serif;
+    margin: 0;
+}
+h1{
+    font-family: 'Dosis';
+}
+h2{
+    font-family: 'Dosis';
+}
+h3{
+    font-family: 'Dosis';
+}
+
+header{
+    display: inline;
+}
+header .welcome{
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Abel';
+    font-size: 16px;
+    background-color:#394867;
+}
+
+main #toppicture{
+    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background-color:#212A3E;
+}
+main #profilepic{
+    width: 200;
+    border-radius: 50%;
+}
+main aside{
+    display: flex;
+    gap: 2rem;
+    flex-flow: row nowrap; 
+    padding: 10px;
+    background-color: #F1F6F9;
+}
+main aside .story{
+    width: 50%;
+    margin-left: 10%;
+}
+main aside .biodata{
+    width: 50%;
+    margin-right: 10%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #394867;
+    padding: 5px;
+
+}
